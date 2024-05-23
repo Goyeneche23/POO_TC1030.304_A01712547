@@ -13,3 +13,6 @@ Toma de órdenes: Los camareros pueden registrar las órdenes de los clientes, i
 
 
 Cálculo de precios: El sistema calcula automáticamente el precio total de cada orden, teniendo en cuenta los productos seleccionados y las promociones aplicadas.
+
+Nota AVANCE CODIGO 1
+Apenas es el concepto basandome en los ejemplos del profe de poo para ir viendo las relaciones que tendran las clases, Se agregara una clase mas para hacer una interfaz mas simple en el main probablemente, asi como mas funciones en todas las clases, todo lo que esta ahorita en el main es solo para probar el codigo.
