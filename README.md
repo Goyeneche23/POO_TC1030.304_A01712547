@@ -16,3 +16,8 @@ Cálculo de precios: El sistema calcula automáticamente el precio total de cada
 
 Nota AVANCE CODIGO 1
 Apenas es el concepto basandome en los ejemplos del profe de poo para ir viendo las relaciones que tendran las clases, Se agregara una clase mas para hacer una interfaz mas simple en el main probablemente, asi como mas funciones en todas las clases, todo lo que esta ahorita en el main es solo para probar el codigo.
+
+Nota (Avance CODIGO 2, Avance3 en total)
+Por lo que entendi en los comentarios a la revision de mi avance anterior la estructura del codigo iba bien por lo cual en esta entrega no cambie eso solo agregue la clase de interactive que ahorita de hecho no la corro con el codigo es solo ir creandola para el proximo avance (la quiero usar como menu para dejar el main limpio aun no se si vaya a funcionar realmente). Entonces aqui ya que las competencias que se me pedian eran polimorfismo y una classe abstracta es lo que agregue, la clase abtracta ya estaba desde el avance pasado, y el polimorfismo se puede observar en la clase calcularCalorias() que actualmente solo esta en la clase Bebida y Postre integrada. La sobrecarga que me dijeron que me faltaba en la entrega pasada tambien ya la añadi o hice mas notable en estas mismas clases en sus constructores. Y el UML aunque seguira acambiando tambien ya lo corregi porque lo de antes era solo una idea basica de antes de empezar, para terminar recordar todo lo que esta ahorita en el main es solo para probar el codigo.
+
+
