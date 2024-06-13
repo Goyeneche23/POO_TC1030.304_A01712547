@@ -21,7 +21,7 @@ Caclulo de Calorias Consumidas: Con el uso del polimorfismo igualmente se calcul
 Direcciones: Usando pointers and references podremos acceder a la direccion donde se encuentra cada platillo.
 
 
-
+-------------------------------------------------------------------------------------------------
 Subcompetencias a falta de acreditar:
 
 
@@ -51,7 +51,7 @@ Usa herramientas de control de versiones
 
 Incluye documentación útil en el repositorio del pryecto
 
-
+-------------------------------------------------------------------------------------------------------
 
 Entrega Final
 Por los comentarios dejados en la revision del avance 4 me dare a la tarea de explicar el codigo y sus funciones a detalle (Igual cualquier duda del codigo contactarme), el codigo esta repleto de comentarios que explican el funcionamiento de muchas lineas, en este apartado me dedicare a explicar mas de manera teorica como funciona el codigo. 
