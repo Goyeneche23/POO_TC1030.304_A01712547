@@ -56,12 +56,16 @@ Incluye documentación útil en el repositorio del pryecto
 Entrega Final
 Por los comentarios dejados en la revision del avance 4 me dare a la tarea de explicar el codigo y sus funciones a detalle (Igual cualquier duda del codigo contactarme), el codigo esta repleto de comentarios que explican el funcionamiento de muchas lineas, en este apartado me dedicare a explicar mas de manera teorica como funciona el codigo. 
 
-Primero la Classe Comida sera una clase abstracta que servira para simplificar el trabajo en el codigo, esta generara un constructor de comida que tendra unos atributos, que todas las demas clases que hereden comida(platillo, postre, bebida) usaran, 
-
 
 Vectores:
 Se usan los Vectores para almacenar en forma de lista la comida que haya en el Menu y tambien en la cuenta, listaComida, listaCuenta. Pero aunque ya habiamos usado vectores antes, en esta ocasion los vectores se usaran diferente, ya que envez de almacenar la Comida entera, almacenaremos sus apuntadores, lo cual solo afectara en la syntaxis pero la funcionalidad sera igual, entonces el vector listaComida tendra las direcciones de todos los constructores clases de las comidas creadas, y cuando se quiera llama para imprimirlo por ejemplo, se usara un apuntador que seleccionara ese platillo, y luego se usara la funcion toString para que lo imprima correctamente. Otra cosa diferente que ocasionara esto sera su eliminacion para evitar fugas de memoria, primero tendremos que eliminar los objetos a los cuales apuntan las direcciones del vector y luego las direcciones mismas que estan dentro del vector. listaCuenta funciona igual en base porque almacena lo mismo pero la diferencria es que esta no tiene datos agregados desde el proncipio por medio de la consola y siempre que se usa por medio del main se llama a que se borre (solo los datos de punteros que tenga el vector, no hacia donde apuntan estos).
+https://www.geeksforgeeks.org/cpp-vector-of-pointers/
+https://www.geeksforgeeks.org/passing-vector-constructor-c/
 
+
+SStream
+Libreria que se usa en la funcion que se sobreescribira toString(), hecho en base al proyecto demo es una manera de pasar los valores de la clase a una cadena de texto stream grande y facil de llamar.
+https://www.geeksforgeeks.org/stringstream-c-applications/
 
 
 ---------------------------------------------------------------------------------------
@@ -69,7 +73,7 @@ Notas Avances
 
 
 
-Nota AVANCE CODIGO 1
+Nota AVANCE CODIGO 1 (Avance 2 en total)
 Apenas es el concepto basandome en los ejemplos del profe de poo para ir viendo las relaciones que tendran las clases, Se agregara una clase mas para hacer una interfaz mas simple en el main probablemente, asi como mas funciones en todas las clases, todo lo que esta ahorita en el main es solo para probar el codigo.
 
 Nota (Avance CODIGO 2, Avance3 en total)
